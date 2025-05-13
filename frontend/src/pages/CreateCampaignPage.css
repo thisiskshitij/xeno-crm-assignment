@@ -1,0 +1,141 @@
+/* General styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #f7f7f7;
+  color: #333;
+  font-size: 16px;
+}
+
+/* Page container */
+.create-campaign-page {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 40px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styles */
+.page-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  margin-bottom: 12px;
+  color: #555;
+}
+
+/* Form section */
+.form-section {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Form group */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Labels */
+label {
+  font-size: 1rem;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+/* Input Fields */
+.input-field,
+.textarea-field {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.3s;
+  margin-bottom: 10px;
+}
+
+.input-field:focus,
+.textarea-field:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+/* Buttons */
+.action-button {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.preview-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+.preview-button:hover {
+  background-color: #0056b3;
+}
+
+.preview-button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.save-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+}
+
+.save-button:hover {
+  background-color: #218838;
+}
+
+.save-button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+/* Audience Size Text */
+.audience-size {
+  margin-left: 10px;
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Form Input Focus Effect */
+.input-field:focus, .textarea-field:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+}
+
+/* Optional: Styling for hover animations */
+button:hover, .action-button:hover {
+  transform: scale(1.05);
+  transition: all 0.2s ease;
+}
